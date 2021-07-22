@@ -1,0 +1,9 @@
+com/example/test/controller/CustomerController.class
+com/example/test/repository/CustomersRepository.class
+com/example/test/TestApplication.class
+com/example/test/model/Customers.class
+com/example/test/dto/CustomerDTO.class
+com/example/test/controller/OrdersController.class
+com/example/test/repository/OrdersRepository.class
+com/example/test/model/Orders.class
+com/example/test/dto/OrdersDTO.class
