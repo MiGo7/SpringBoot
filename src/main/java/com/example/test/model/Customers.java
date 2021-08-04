@@ -28,6 +28,13 @@ public class Customers implements Serializable {
     public Customers() {
     }
 
+    public Customers(int customerid, String customername, String country, List<Orders> orders) {
+        this.customerid = customerid;
+        this.customername = customername;
+        this.country = country;
+        this.orders = orders;
+    }
+
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "customers")
     private List<Orders> orders;
 

@@ -30,6 +30,14 @@ public class Orders implements Serializable {
     @Column
     private String description;
 
+    public Orders() {
+    }
+
+    public Orders(int orderid, String description) {
+        this.orderid = orderid;
+        this.description = description;
+    }
+
     public Customers getCustomers() {
         return customers;
     }
